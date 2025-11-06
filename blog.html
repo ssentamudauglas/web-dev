@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dauglas blog</title>
+    <style>
+        * {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.dauglas {
+    width: 100%;
+}
+.dauglas .brave {
+    width: 80%;
+    margin: auto;
+}
+.dauglas .brave .header {
+    width: 60%;
+    text-align: center;
+    margin: auto;
+}
+.dauglas .brave .header h1 {
+    color: rgb(119, 235, 235);
+    text-align: center;
+    font-size: 50px;
+}
+.dauglas .brave .header p {
+    color: rgb(43, 168, 162);
+    font-size: 20px;
+    margin-top: 15px;
+    line-height: 2.5;
+}
+.fruits {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.fruits .veggies {
+    flex: 1;
+    margin: 50px 20px;
+    box-shadow: 0px 0px 5px 0px rgb(221, 97, 8);
+    background-color: lightsalmon;
+    border-radius: 20px;
+    overflow: auto;
+}
+.fruits .veggies .footer1 {
+    background-color: rgb(223, 166, 174);
+    display: flex;
+    justify-content: space-around;
+    padding: 15%;
+    border: 10%;
+}
+.fruits .veggies .footer2 {
+    background-color: rgb(250, 215, 180);
+    display: flex;
+    justify-content: space-around;
+    padding: 15%;
+    border: 10%;
+}
+.fruits .veggies .footer3 {
+    background-color: rgb(112, 135, 167);
+    display: flex;
+    justify-content: space-around;
+    padding: 15%;
+    border: 10%;
+}
+.fruits .veggies p{
+    font-size: 100%;
+    padding: 20%;
+    color: aquamarine;
+}
+.fruits .veggies h2{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 10px;
+    color: rgb(245, 179, 201);
+}
+.fruits .veggies :hover{
+    font-weight: bolder;
+}
+.fruits .veggies img{
+    width: 100%;
+    height:10%;
+    overflow: auto;
+}
+@media screen and (max-width: 600px){
+    .dauglas{
+        flex-direction: column;
+    }
+    
+}
+    </style>
+</head>
+<body>
+    <div class="dauglas">
+        <div class="brave">
+            <div class="header">
+                <h1>daug blog</h1>
+                <p>hidden intentions can blust up sometimes</p>
+
+            </div>
+            <div class="fruits">
+                <div class="veggies">
+                    <img src="./brave.jpg" alt="cabbages" width="400px" height="300px">
+                    <h4>cabbages</h4>
+                    <p>It's a nutrient-dense food, rich in vitamins 
+                        C and K, fiber, and antioxidants.</p>
+                    <div class="footer1">
+                        <h2>78th read</h2>
+                        <h2>6666 views</h2>
+                        <h2>9000 comments</h2>
+                    </div>
+                     </div>
+                    <div class="veggies">
+                    <img src="img3.jpg" alt="carrots" width="400px" height="300px">
+                    <h4>carrots</h4>
+                    <p> They are a healthy addition to the diet, supporting eye health, 
+                        immune function, and digestive processes</p>
+                    <div class="footer2">
+                        <h2>88th read</h2>
+                        <h2>6656 views</h2>
+                        <h2>9078 comments</h2>
+                    </div>
+                    </div>
+                     <div class="veggies">
+                    <img src="life.3.jpg" alt="beans" width="400px" height="300px">
+                    <h4>beans</h4>
+                    <p> They are a versatile, protein-rich food, 
+                        valuable as a staple crop for food security, and can be eaten fresh or dried</p>
+                    <div class="footer3">
+                        <h2>98th read</h2>
+                        <h2>6632 views</h2>
+                        <h2>9430 comments</h2>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br>
+    
+    <a href="./table.html"> <strong>GO TO TABLE</strong></a>
+</body>
+</html>
